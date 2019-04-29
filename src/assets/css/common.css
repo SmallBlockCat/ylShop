@@ -1,0 +1,26 @@
+@font-face
+{
+	font-family: myFirstFont;
+	src: url('../../.././static/fonts/NotoSansHans-Light.otf');
+	src: url('../../.././static/fonts/NotoSansHans-Regular.otf');
+}
+html,
+body{
+	font-family: myFirstFont,'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+.el-input,.el-select-dropdown__item{
+	font-size:32px !important;
+}
+[data-dpr="1"] .el-input,
+[data-dpr="1"] .el-select-dropdown__item{
+	font-size:16px !important;
+}
+[data-dpr="3"] .el-input,
+[data-dpr="3"] .el-select-dropdown__item{
+	font-size:48px !important;
+}
+.el-select-dropdown__item,.el-input__inner{
+	height: auto !important;
+}
