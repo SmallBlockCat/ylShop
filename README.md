@@ -1,5 +1,5 @@
 # my-project   
-医药商场
+医药商城
 > A Vue.js project
 
 ## Build Setup
